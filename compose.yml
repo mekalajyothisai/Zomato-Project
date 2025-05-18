@@ -1,8 +1,8 @@
 ---
 version: "3"
 services:
- devopsdb:
+ application:
    container_name: zomato
    image: jyothisaimekala/zomato:zomatoimage
    port:
-     - "3000:3000"
+     - "1234:3000"
