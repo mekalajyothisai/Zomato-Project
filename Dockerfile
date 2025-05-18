@@ -11,5 +11,5 @@ WORKDIR /app
 COPY --from=builder /app/build ./build
 COPY package*.json ./
 RUN npm install --production
-EXPOSE 3000
+EXPOSE 1234
 CMD ["npm", "start"]
